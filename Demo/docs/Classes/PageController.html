@@ -1,0 +1,3358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PageController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/PageController" class="dashAnchor"></a>
+    <a title="PageController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (59% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PageController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomViewController.html">CustomViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExampleController.html">ExampleController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FirstViewController.html">FirstViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MenuItem.html">MenuItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MenuView.html">MenuView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PageController.html">PageController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressView.html">ProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SecondController.html">SecondController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewController.html">ViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WMScrollView.html">WMScrollView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:21PageControllerExample06WMPageB29DidFullyDisplayedNotificationSSvp">WMPageControllerDidFullyDisplayedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:21PageControllerExample06WMPageB31DidMovedToSuperViewNotificationSSvp">WMPageControllerDidMovedToSuperViewNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CachePolicy.html">CachePolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuItemState.html">MenuItemState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuViewLayoutMode.html">MenuViewLayoutMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuViewPosition.html">MenuViewPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuViewStyle.html">MenuViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PreloadPolicy.html">PreloadPolicy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/MenuItemDelegate.html">MenuItemDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MenuViewDataSource.html">MenuViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MenuViewDelegate.html">MenuViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PageControllerDataSource.html">PageControllerDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PageControllerDelegate.html">PageControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PageController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">PageController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20vars"></a>
+                <a name="//apple_ref/swift/Section/Public vars" class="dashAnchor"></a>
+                <a href="#/Public%20vars">
+                  <h3 class="section-name">Public vars</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C10dataSourceAA0ab4DataE0_pSgXwvp"></a>
+                    <a name="//apple_ref/swift/Property/dataSource" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C10dataSourceAA0ab4DataE0_pSgXwvp">dataSource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">dataSource</span><span class="p">:</span> <span class="kt"><a href="../Protocols/PageControllerDataSource.html">PageControllerDataSource</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C8delegateAA0aB8Delegate_pSgXwvp"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C8delegateAA0aB8Delegate_pSgXwvp">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/PageControllerDelegate.html">PageControllerDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C6valuesSo7NSArrayCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/values" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C6valuesSo7NSArrayCSgvp">values</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">values</span><span class="p">:</span> <span class="kt">NSArray</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C4keysSaySSGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/keys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C4keysSaySSGSgvp">keys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">keys</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C04viewB7ClassesSaySo06UIViewB0CmGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/viewControllerClasses" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C04viewB7ClassesSaySo06UIViewB0CmGSgvp">viewControllerClasses</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>各个控制器的 class</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">viewControllerClasses</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIViewController</span><span class="o">.</span><span class="k">Type</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C6titlesSaySSGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/titles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C6titlesSaySSGSgvp">titles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>各个控制器标题</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">titles</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C011currentViewB0So06UIViewB0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C011currentViewB0So06UIViewB0CSgvp">currentViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当前vc</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="nf">fileprivate</span><span class="p">(</span><span class="k">set</span><span class="p">)</span> <span class="k">var</span> <span class="nv">currentViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C11selectIndexSivp"></a>
+                    <a name="//apple_ref/swift/Property/selectIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C11selectIndexSivp">selectIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>设置选中几号 item</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">selectIndex</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C14pageAnimatableSbvp"></a>
+                    <a name="//apple_ref/swift/Property/pageAnimatable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C14pageAnimatableSbvp">pageAnimatable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>点击的 MenuItem 是否触发滚动动画</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">pageAnimatable</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C33automaticallyCalculatesItemWidthsSbvp"></a>
+                    <a name="//apple_ref/swift/Property/automaticallyCalculatesItemWidths" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C33automaticallyCalculatesItemWidthsSbvp">automaticallyCalculatesItemWidths</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否自动通过字符串计算 MenuItem 的宽度，默认为 NO</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">automaticallyCalculatesItemWidths</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C12scrollEnableSbvp"></a>
+                    <a name="//apple_ref/swift/Property/scrollEnable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C12scrollEnableSbvp">scrollEnable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether the controller can scroll. Default is YES</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">scrollEnable</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C17titleSizeSelected12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/titleSizeSelected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C17titleSizeSelected12CoreGraphics7CGFloatVvp">titleSizeSelected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>选中时的标题尺寸</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">titleSizeSelected</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C15titleSizeNormal12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/titleSizeNormal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C15titleSizeNormal12CoreGraphics7CGFloatVvp">titleSizeNormal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>非选中时的标题尺寸</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">titleSizeNormal</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C18titleColorSelectedSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/titleColorSelected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C18titleColorSelectedSo7UIColorCvp">titleColorSelected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>标题选中时的颜色, 颜色是可动画的.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">titleColorSelected</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C16titleColorNormalSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/titleColorNormal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C16titleColorNormalSo7UIColorCvp">titleColorNormal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>标题非选择时的颜色, 颜色是可动画的.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">titleColorNormal</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13titleFontNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/titleFontName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13titleFontNameSSSgvp">titleFontName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>标题的字体名字</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">titleFontName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13menuItemWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/menuItemWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13menuItemWidth12CoreGraphics7CGFloatVvp">menuItemWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>每个 MenuItem 的宽度</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">menuItemWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C11itemsWidthsSay12CoreGraphics7CGFloatVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/itemsWidths" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C11itemsWidthsSay12CoreGraphics7CGFloatVGSgvp">itemsWidths</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>各个 MenuItem 的宽度，可不等，数组内为</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">itemsWidths</span><span class="p">:</span> <span class="p">[</span><span class="kt">CGFloat</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13menuViewStyleAA04MenueF0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/menuViewStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13menuViewStyleAA04MenueF0Ovp">menuViewStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">menuViewStyle</span><span class="p">:</span> <span class="kt"><a href="../Enums/MenuViewStyle.html">MenuViewStyle</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C18menuViewLayoutModeAA04MenuefG0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/menuViewLayoutMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C18menuViewLayoutModeAA04MenuefG0Ovp">menuViewLayoutMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">menuViewLayoutMode</span><span class="p">:</span> <span class="kt"><a href="../Enums/MenuViewLayoutMode.html">MenuViewLayoutMode</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13progressColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/progressColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13progressColorSo7UIColorCSgvp">progressColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">progressColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C18progressViewWidthsSay12CoreGraphics7CGFloatVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/progressViewWidths" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C18progressViewWidthsSay12CoreGraphics7CGFloatVGSgvp">progressViewWidths</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">progressViewWidths</span><span class="p">:</span> <span class="p">[</span><span class="kt">CGFloat</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13progressWidth12CoreGraphics7CGFloatVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/progressWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13progressWidth12CoreGraphics7CGFloatVSgvp">progressWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>定制进度条，若每个进度条长度相同，可设置该属性</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">progressWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C10scrollViewAA08WMScrollE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/scrollView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C10scrollViewAA08WMScrollE0CSgvp">scrollView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>内部容器</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt"><a href="../Classes/WMScrollView.html">WMScrollView</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C21progressViewIsNaughtySbvp"></a>
+                    <a name="//apple_ref/swift/Property/progressViewIsNaughty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C21progressViewIsNaughtySbvp">progressViewIsNaughty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>调皮效果</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">progressViewIsNaughty</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C16postNotificationSbvp"></a>
+                    <a name="//apple_ref/swift/Property/postNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C16postNotificationSbvp">postNotification</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否发送在创建控制器或者视图完全展现在用户眼前时通知观察者，默认为不开启，如需利用通知请开启</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">postNotification</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C16rememberLocationSbvp"></a>
+                    <a name="//apple_ref/swift/Property/rememberLocation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C16rememberLocationSbvp">rememberLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否记录 Controller 的位置，并在下次回来的时候回到相应位置，默认为 NO (若当前缓存中存在不会触发</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">rememberLocation</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C11cachePolicyAA05CacheE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/cachePolicy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C11cachePolicyAA05CacheE0Ovp">cachePolicy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>缓存的机制，默认为无限制 (如果收到内存警告, 会自动切换)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt"><a href="../Enums/CachePolicy.html">CachePolicy</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13preloadPolicyAA07PreloadE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/preloadPolicy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13preloadPolicyAA07PreloadE0Ovp">preloadPolicy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>预加载机制，在停止滑动的时候预加载 n 页</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">preloadPolicy</span><span class="p">:</span> <span class="kt"><a href="../Enums/PreloadPolicy.html">PreloadPolicy</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C7bouncesSbvp"></a>
+                    <a name="//apple_ref/swift/Property/bounces" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C7bouncesSbvp">bounces</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether ContentView bounces</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">bounces</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C19showOnNavigationBarSbvp"></a>
+                    <a name="//apple_ref/swift/Property/showOnNavigationBar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C19showOnNavigationBarSbvp">showOnNavigationBar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否作为 NavigationBar 的 titleView 展示，默认 NO</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">showOnNavigationBar</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13startDraggingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/startDragging" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13startDraggingSbvp">startDragging</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>用代码设置 contentView 的 contentOffset 之前，请设置 startDragging = YES</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">startDragging</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C14progressHeight12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/progressHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C14progressHeight12CoreGraphics7CGFloatVvp">progressHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>下划线进度条的高度</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">progressHeight</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C12itemsMarginsSay12CoreGraphics7CGFloatVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/itemsMargins" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C12itemsMarginsSay12CoreGraphics7CGFloatVGSgvp">itemsMargins</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>顶部菜单栏各个 item 的间隙，因为包括头尾两端，所以确保它的数量等于控制器数量 + 1, 默认间隙为 0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">itemsMargins</span><span class="p">:</span> <span class="p">[</span><span class="kt">CGFloat</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C10itemMargin12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/itemMargin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C10itemMargin12CoreGraphics7CGFloatVvp">itemMargin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>set itemMargin if all margins are the same, default is 0 如果各个间隙都想同，设置该属性，默认为 0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">itemMargin</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C23progressViewBottomSpace12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/progressViewBottomSpace" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C23progressViewBottomSpace12CoreGraphics7CGFloatVvp">progressViewBottomSpace</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>progressView 到 menuView 底部的距离</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">progressViewBottomSpace</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C24progressViewCornerRadius12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/progressViewCornerRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C24progressViewCornerRadius12CoreGraphics7CGFloatVvp">progressViewCornerRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>progressView&rsquo;s cornerRadius</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">progressViewCornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C8menuViewAA04MenuE0CSgXwvp"></a>
+                    <a name="//apple_ref/swift/Property/menuView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C8menuViewAA04MenuE0CSgXwvp">menuView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>顶部导航栏</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">menuView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C11contentViewAA08WMScrollE0CSgXwvp"></a>
+                    <a name="//apple_ref/swift/Property/contentView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C11contentViewAA08WMScrollE0CSgXwvp">contentView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>内部容器</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">contentView</span><span class="p">:</span> <span class="kt"><a href="../Classes/WMScrollView.html">WMScrollView</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C21menuViewContentMargin12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/menuViewContentMargin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C21menuViewContentMargin12CoreGraphics7CGFloatVvp">menuViewContentMargin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>MenuView 内部视图与左右的间距</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">menuViewContentMargin</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%A7%81%E6%9C%89%E5%8F%98%E9%87%8F"></a>
+                <a name="//apple_ref/swift/Section/私有变量" class="dashAnchor"></a>
+                <a href="#/%E7%A7%81%E6%9C%89%E5%8F%98%E9%87%8F">
+                  <h3 class="section-name">私有变量</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C8memCache33_3FD4241F0A239602290B8593EF4C68E8LLSo7NSCacheCySo8NSNumberCSo06UIViewB0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/memCache" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C8memCache33_3FD4241F0A239602290B8593EF4C68E8LLSo7NSCacheCySo8NSNumberCSo06UIViewB0CGvp">memCache</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">memCache</span><span class="p">:</span> <span class="kt">NSCache</span><span class="o">&lt;</span><span class="kt">NSNumber</span><span class="p">,</span> <span class="kt">UIViewController</span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C7targetX33_3FD4241F0A239602290B8593EF4C68E8LL12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/targetX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C7targetX33_3FD4241F0A239602290B8593EF4C68E8LL12CoreGraphics7CGFloatVvp">targetX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">targetX</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C16contentViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/contentViewFrame" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C16contentViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLSo6CGRectVvp">contentViewFrame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">contentViewFrame</span><span class="p">:</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13menuViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/menuViewFrame" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13menuViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLSo6CGRectVvp">menuViewFrame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">menuViewFrame</span><span class="p">:</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C9hasInited33_3FD4241F0A239602290B8593EF4C68E8LLSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasInited" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C9hasInited33_3FD4241F0A239602290B8593EF4C68E8LLSbvp">hasInited</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">hasInited</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C15shouldNotScroll33_3FD4241F0A239602290B8593EF4C68E8LLSbvp"></a>
+                    <a name="//apple_ref/swift/Property/shouldNotScroll" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C15shouldNotScroll33_3FD4241F0A239602290B8593EF4C68E8LLSbvp">shouldNotScroll</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">shouldNotScroll</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C16initializedIndex33_3FD4241F0A239602290B8593EF4C68E8LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/initializedIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C16initializedIndex33_3FD4241F0A239602290B8593EF4C68E8LLSivp">initializedIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">initializedIndex</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C15controllerCount33_3FD4241F0A239602290B8593EF4C68E8LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/controllerCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C15controllerCount33_3FD4241F0A239602290B8593EF4C68E8LLSivp">controllerCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">controllerCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C15childViewFrames33_3FD4241F0A239602290B8593EF4C68E8LLSaySo6CGRectVGvp"></a>
+                    <a name="//apple_ref/swift/Property/childViewFrames" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C15childViewFrames33_3FD4241F0A239602290B8593EF4C68E8LLSaySo6CGRectVGvp">childViewFrames</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>用于记录子控制器view的frame，用于 scrollView 上的展示的位置</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">childViewFrames</span><span class="p">:</span> <span class="p">[</span><span class="kt">CGRect</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C9displayVC33_3FD4241F0A239602290B8593EF4C68E8LLSDySSSo06UIViewB0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/displayVC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C9displayVC33_3FD4241F0A239602290B8593EF4C68E8LLSDySSSo06UIViewB0CGvp">displayVC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当前展示在屏幕上的控制器，方便在滚动的时候读取 (避免不必要计算)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">displayVC</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C10posRecords33_3FD4241F0A239602290B8593EF4C68E8LLSDySSSo7CGPointVGvp"></a>
+                    <a name="//apple_ref/swift/Property/posRecords" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C10posRecords33_3FD4241F0A239602290B8593EF4C68E8LLSDySSSo7CGPointVGvp">posRecords</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>用于记录销毁的viewController的位置 (如果它是某一种scrollView的Controller的话)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">posRecords</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">CGPoint</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C15backgroundCacheSDySo8NSNumberCSo06UIViewB0CSo8NSObjectCSH10ObjectiveCg_Gvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundCache" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C15backgroundCacheSDySo8NSNumberCSo06UIViewB0CSo8NSObjectCSH10ObjectiveCg_Gvp">backgroundCache</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="k">var</span> <span class="nv">backgroundCache</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSNumber</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C18memoryWarningCount33_3FD4241F0A239602290B8593EF4C68E8LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/memoryWarningCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C18memoryWarningCount33_3FD4241F0A239602290B8593EF4C68E8LLSivp">memoryWarningCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>收到内存警告的次数</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">memoryWarningCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C12_selectIndex33_3FD4241F0A239602290B8593EF4C68E8LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/_selectIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C12_selectIndex33_3FD4241F0A239602290B8593EF4C68E8LLSivp">_selectIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">_selectIndex</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C18_markedSelectIndex33_3FD4241F0A239602290B8593EF4C68E8LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/_markedSelectIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C18_markedSelectIndex33_3FD4241F0A239602290B8593EF4C68E8LLSivp">_markedSelectIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">_markedSelectIndex</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C21childControllersCount33_3FD4241F0A239602290B8593EF4C68E8LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/childControllersCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C21childControllersCount33_3FD4241F0A239602290B8593EF4C68E8LLSivp">childControllersCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="k">var</span> <span class="nv">childControllersCount</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/API"></a>
+                <a name="//apple_ref/swift/Section/API" class="dashAnchor"></a>
+                <a href="#/API">
+                  <h3 class="section-name">API</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C9vcClasses11theirTitlesACSaySo06UIViewB0CmG_SaySSGtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(vcClasses:theirTitles:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C9vcClasses11theirTitlesACSaySo06UIViewB0CmG_SaySSGtcfc">init(vcClasses:theirTitles:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+<ul>
+<li>构造方法，请使用该方法创建控制器. 或者实现数据源方法</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">vcClasses</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIViewController</span><span class="o">.</span><span class="k">Type</span><span class="p">],</span> <span class="nv">theirTitles</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C10reloadDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/reloadData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C10reloadDatayyF">reloadData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">reloadData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C11updateTitle_7atIndexySS_SitF"></a>
+                    <a name="//apple_ref/swift/Method/updateTitle(_:atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C11updateTitle_7atIndexySS_SitF">updateTitle(_:atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>更新指定序号的控制器的标题</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateTitle</span><span class="p">(</span><span class="n">_</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>新的标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>index</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>目标序号</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C11updateTitle_7atIndex8andWidthySS_Si12CoreGraphics7CGFloatVtF"></a>
+                    <a name="//apple_ref/swift/Method/updateTitle(_:atIndex:andWidth:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C11updateTitle_7atIndex8andWidthySS_Si12CoreGraphics7CGFloatVtF">updateTitle(_:atIndex:andWidth:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>更新指定序号的控制器的标题以及他的宽度</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateTitle</span><span class="p">(</span><span class="n">_</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">andWidth</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C20updateAttributeTitle_7atIndexySo18NSAttributedStringC_SitF"></a>
+                    <a name="//apple_ref/swift/Method/updateAttributeTitle(_:atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C20updateAttributeTitle_7atIndexySo18NSAttributedStringC_SitF">updateAttributeTitle(_:atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateAttributeTitle</span><span class="p">(</span><span class="n">_</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">NSAttributedString</span><span class="p">,</span> <span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/private%20method"></a>
+                <a name="//apple_ref/swift/Section/private method" class="dashAnchor"></a>
+                <a href="#/private%20method">
+                  <h3 class="section-name">private method</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)initWithNibName:bundle:"></a>
+                    <a name="//apple_ref/swift/Method/init(nibName:bundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)initWithNibName:bundle:">init(nibName:bundle:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="n">nibName</span> <span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">bundle</span> <span class="nv">nibBundleOrNil</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)initWithCoder:">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C08didEnterB033_3FD4241F0A239602290B8593EF4C68E8LLyySo06UIViewB0C_SitF"></a>
+                    <a name="//apple_ref/swift/Method/didEnterController(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C08didEnterB033_3FD4241F0A239602290B8593EF4C68E8LLyySo06UIViewB0C_SitF">didEnterController(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">didEnterController</span><span class="p">(</span><span class="n">_</span> <span class="nv">vc</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C46postFullyDisplayedNotificationWithCurrentIndex33_3FD4241F0A239602290B8593EF4C68E8LLyySiF"></a>
+                    <a name="//apple_ref/swift/Method/postFullyDisplayedNotificationWithCurrentIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C46postFullyDisplayedNotificationWithCurrentIndex33_3FD4241F0A239602290B8593EF4C68E8LLyySiF">postFullyDisplayedNotificationWithCurrentIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">postFullyDisplayedNotificationWithCurrentIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C011initializedB17WithIndexIfNeeded33_3FD4241F0A239602290B8593EF4C68E8LLyySiF"></a>
+                    <a name="//apple_ref/swift/Method/initializedControllerWithIndexIfNeeded(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C011initializedB17WithIndexIfNeeded33_3FD4241F0A239602290B8593EF4C68E8LLyySiF">initializedControllerWithIndexIfNeeded(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">initializedControllerWithIndexIfNeeded</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C013addCachedViewB033_3FD4241F0A239602290B8593EF4C68E8LLyySo06UIViewB0C_SitF"></a>
+                    <a name="//apple_ref/swift/Method/addCachedViewController(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C013addCachedViewB033_3FD4241F0A239602290B8593EF4C68E8LLyySo06UIViewB0C_SitF">addCachedViewController(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">addCachedViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C39postAddToSuperViewNotificationWithIndex33_3FD4241F0A239602290B8593EF4C68E8LLyySiF"></a>
+                    <a name="//apple_ref/swift/Method/postAddToSuperViewNotificationWithIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C39postAddToSuperViewNotificationWithIndex33_3FD4241F0A239602290B8593EF4C68E8LLyySiF">postAddToSuperViewNotificationWithIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">postAddToSuperViewNotificationWithIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C9initSetupyyF"></a>
+                    <a name="//apple_ref/swift/Method/initSetup()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C9initSetupyyF">initSetup()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">initSetup</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)dealloc"></a>
+                    <a name="//apple_ref/swift/Method/deinit" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)dealloc">deinit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">deinit</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C19forceLayoutSubviewsyyF"></a>
+                    <a name="//apple_ref/swift/Method/forceLayoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C19forceLayoutSubviewsyyF">forceLayoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">forceLayoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13calculateSize33_3FD4241F0A239602290B8593EF4C68E8LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/calculateSize()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13calculateSize33_3FD4241F0A239602290B8593EF4C68E8LLyyF">calculateSize()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>包括宽高，子控制器视图 frame</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">calculateSize</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C21adjustScrollViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/adjustScrollViewFrame()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C21adjustScrollViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLyyF">adjustScrollViewFrame()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">adjustScrollViewFrame</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C19adjustMenuViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/adjustMenuViewFrame()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C19adjustMenuViewFrame33_3FD4241F0A239602290B8593EF4C68E8LLyyF">adjustMenuViewFrame()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">adjustMenuViewFrame</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C36adjustDisplayingViewControllersFrameyyF"></a>
+                    <a name="//apple_ref/swift/Method/adjustDisplayingViewControllersFrame()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C36adjustDisplayingViewControllersFrameyyF">adjustDisplayingViewControllersFrame()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adjustDisplayingViewControllersFrame</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13resetMenuViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetMenuView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13resetMenuViewyyF">resetMenuView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">resetMenuView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C11addMenuViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/addMenuView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C11addMenuViewyyF">addMenuView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addMenuView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C014initializeViewB7AtIndexySo06UIViewB0CSiF"></a>
+                    <a name="//apple_ref/swift/Method/initializeViewControllerAtIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C014initializeViewB7AtIndexySo06UIViewB0CSiF">initializeViewControllerAtIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">initializeViewControllerAtIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C10clearDatas33_3FD4241F0A239602290B8593EF4C68E8LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/clearDatas()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C10clearDatas33_3FD4241F0A239602290B8593EF4C68E8LLyyF">clearDatas()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">clearDatas</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C33growCachePolicyAfterMemoryWarning33_3FD4241F0A239602290B8593EF4C68E8LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/growCachePolicyAfterMemoryWarning()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C33growCachePolicyAfterMemoryWarning33_3FD4241F0A239602290B8593EF4C68E8LLyyF">growCachePolicyAfterMemoryWarning()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">growCachePolicyAfterMemoryWarning</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)growCachePolicyToHigh"></a>
+                    <a name="//apple_ref/swift/Method/growCachePolicyToHigh()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)growCachePolicyToHigh">growCachePolicyToHigh()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">growCachePolicyToHigh</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C15resetScrollViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetScrollView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C15resetScrollViewyyF">resetScrollView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">resetScrollView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13addScrollView33_3FD4241F0A239602290B8593EF4C68E8LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/addScrollView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13addScrollView33_3FD4241F0A239602290B8593EF4C68E8LLyyF">addScrollView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">addScrollView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C07addViewB7AtIndex33_3FD4241F0A239602290B8593EF4C68E8LLyySiF"></a>
+                    <a name="//apple_ref/swift/Method/addViewControllerAtIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C07addViewB7AtIndex33_3FD4241F0A239602290B8593EF4C68E8LLyySiF">addViewControllerAtIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">addViewControllerAtIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C010removeViewB0yySo06UIViewB0C_SitF"></a>
+                    <a name="//apple_ref/swift/Method/removeViewController(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C010removeViewB0yySo06UIViewB0C_SitF">removeViewController(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>移除控制器,且从display中移除</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C09willEnterB0yySo06UIViewB0C_SitF"></a>
+                    <a name="//apple_ref/swift/Method/willEnterController(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C09willEnterB0yySo06UIViewB0C_SitF">willEnterController(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">willEnterController</span><span class="p">(</span><span class="n">_</span> <span class="nv">vc</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C13infoWithIndexySDyS2SGSiF"></a>
+                    <a name="//apple_ref/swift/Method/infoWithIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C13infoWithIndexySDyS2SGSiF">infoWithIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">infoWithIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C12titleAtIndex33_3FD4241F0A239602290B8593EF4C68E8LLySSSiF"></a>
+                    <a name="//apple_ref/swift/Method/titleAtIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C12titleAtIndex33_3FD4241F0A239602290B8593EF4C68E8LLySSSiF">titleAtIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">titleAtIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C22backToPositionIfNeeded33_3FD4241F0A239602290B8593EF4C68E8LL10controller5indexySo06UIViewB0C_SitF"></a>
+                    <a name="//apple_ref/swift/Method/backToPositionIfNeeded(controller:index:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C22backToPositionIfNeeded33_3FD4241F0A239602290B8593EF4C68E8LL10controller5indexySo06UIViewB0C_SitF">backToPositionIfNeeded(controller:index:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">backToPositionIfNeeded</span><span class="p">(</span><span class="nv">controller</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C018isKindOfScrollViewB0ySo08UIScrollH0CSgSo06UIViewB0CF"></a>
+                    <a name="//apple_ref/swift/Method/isKindOfScrollViewController(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C018isKindOfScrollViewB0ySo08UIScrollH0CSgSo06UIViewB0CF">isKindOfScrollViewController(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isKindOfScrollViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIScrollView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C24rememberPositionIfNeeded33_3FD4241F0A239602290B8593EF4C68E8LL_5indexySo06UIViewB0C_SitF"></a>
+                    <a name="//apple_ref/swift/Method/rememberPositionIfNeeded(_:index:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C24rememberPositionIfNeeded33_3FD4241F0A239602290B8593EF4C68E8LL_5indexySo06UIViewB0C_SitF">rememberPositionIfNeeded(_:index:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">rememberPositionIfNeeded</span><span class="p">(</span><span class="n">_</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C010willCachedB033_3FD4241F0A239602290B8593EF4C68E8LLyySo06UIViewB0C_SitF"></a>
+                    <a name="//apple_ref/swift/Method/willCachedController(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C010willCachedB033_3FD4241F0A239602290B8593EF4C68E8LLyySo06UIViewB0C_SitF">willCachedController(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">willCachedController</span><span class="p">(</span><span class="n">_</span> <span class="nv">vc</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C10isInScreen33_3FD4241F0A239602290B8593EF4C68E8LLySbSo6CGRectVF"></a>
+                    <a name="//apple_ref/swift/Method/isInScreen(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C10isInScreen33_3FD4241F0A239602290B8593EF4C68E8LLySbSo6CGRectVF">isInScreen(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">isInScreen</span><span class="p">(</span><span class="n">_</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C24calculateItemWithAtIndex33_3FD4241F0A239602290B8593EF4C68E8LLy12CoreGraphics7CGFloatVSiF"></a>
+                    <a name="//apple_ref/swift/Method/calculateItemWithAtIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C24calculateItemWithAtIndex33_3FD4241F0A239602290B8593EF4C68E8LLy12CoreGraphics7CGFloatVSiF">calculateItemWithAtIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">calculateItemWithAtIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)willResignActive:"></a>
+                    <a name="//apple_ref/swift/Method/willResignActive(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)willResignActive:">willResignActive(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当 app 即将进入后台接收到的通知</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">willResignActive</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)willEnterForeground:"></a>
+                    <a name="//apple_ref/swift/Method/willEnterForeground(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)willEnterForeground:">willEnterForeground(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当 app 即将回到前台接收到的通知</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">willEnterForeground</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Life%20Cycle"></a>
+                <a name="//apple_ref/swift/Section/Life Cycle" class="dashAnchor"></a>
+                <a href="#/Life%20Cycle">
+                  <h3 class="section-name">Life Cycle</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">open</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)viewDidLayoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLayoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)viewDidLayoutSubviews">viewDidLayoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLayoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C24delaySelectIndexIfNeededyyF"></a>
+                    <a name="//apple_ref/swift/Method/delaySelectIndexIfNeeded()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C24delaySelectIndexIfNeededyyF">delaySelectIndexIfNeeded()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">delaySelectIndexIfNeeded</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(cs)PageController(im)didReceiveMemoryWarning"></a>
+                    <a name="//apple_ref/swift/Method/didReceiveMemoryWarning()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(cs)PageController(im)didReceiveMemoryWarning">didReceiveMemoryWarning()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">open</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/-MenuViewDataSource,MenuViewDelegate"></a>
+                <a name="//apple_ref/swift/Section/-MenuViewDataSource,MenuViewDelegate" class="dashAnchor"></a>
+                <a href="#/-MenuViewDataSource,MenuViewDelegate">
+                  <h3 class="section-name">-MenuViewDataSource,MenuViewDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(pl)MenuViewDelegate(im)menuView:didSelectedIndex::"></a>
+                    <a name="//apple_ref/swift/Method/menuView(_:didSelectedIndex:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(pl)MenuViewDelegate(im)menuView:didSelectedIndex::">menuView(_:didSelectedIndex:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">menuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menu</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">,</span> <span class="n">didSelectedIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">_</span> <span class="nv">currentIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(pl)MenuViewDelegate(im)menuView:widthForItemAtIndex:"></a>
+                    <a name="//apple_ref/swift/Method/menuView(_:widthForItemAtIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(pl)MenuViewDelegate(im)menuView:widthForItemAtIndex:">menuView(_:widthForItemAtIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">menuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menu</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">,</span> <span class="n">widthForItemAtIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(pl)MenuViewDelegate(im)menuView:itemMarginAtIndex:"></a>
+                    <a name="//apple_ref/swift/Method/menuView(_:itemMarginAtIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(pl)MenuViewDelegate(im)menuView:itemMarginAtIndex:">menuView(_:itemMarginAtIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">menuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menu</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">,</span> <span class="n">itemMarginAtIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)menuView:titleSizeForState:atIndex:"></a>
+                    <a name="//apple_ref/swift/Method/menuView(_:titleSizeForState:atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)menuView:titleSizeForState:atIndex:">menuView(_:titleSizeForState:atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">menuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menu</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">,</span> <span class="n">titleSizeForState</span> <span class="nv">state</span><span class="p">:</span> <span class="kt"><a href="../Enums/MenuItemState.html">MenuItemState</a></span><span class="p">,</span> <span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)menuView:titleColorForState:atIndex:"></a>
+                    <a name="//apple_ref/swift/Method/menuView(_:titleColorForState:atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)menuView:titleColorForState:atIndex:">menuView(_:titleColorForState:atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">menuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menu</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">,</span> <span class="n">titleColorForState</span> <span class="nv">state</span><span class="p">:</span> <span class="kt"><a href="../Enums/MenuItemState.html">MenuItemState</a></span><span class="p">,</span> <span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)menuView:didLayoutItemFrame:atIndex:"></a>
+                    <a name="//apple_ref/swift/Method/menuView(_:didLayoutItemFrame:atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)menuView:didLayoutItemFrame:atIndex:">menuView(_:didLayoutItemFrame:atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">menuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menu</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">,</span> <span class="n">didLayoutItemFrame</span> <span class="nv">menuItem</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuItem.html">MenuItem</a></span><span class="p">,</span> <span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(pl)MenuViewDataSource(im)numbersOfTitlesInMenuView:"></a>
+                    <a name="//apple_ref/swift/Method/numbersOfTitlesInMenuView(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(pl)MenuViewDataSource(im)numbersOfTitlesInMenuView:">numbersOfTitlesInMenuView(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">numbersOfTitlesInMenuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menuView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PageControllerExample@objc(pl)MenuViewDataSource(im)menuView:titleAtIndex:"></a>
+                    <a name="//apple_ref/swift/Method/menuView(_:titleAtIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PageControllerExample@objc(pl)MenuViewDataSource(im)menuView:titleAtIndex:">menuView(_:titleAtIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">menuView</span><span class="p">(</span><span class="n">_</span> <span class="nv">menuView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">,</span> <span class="n">titleAtIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/PageControllerDelegate%20dataSource"></a>
+                <a name="//apple_ref/swift/Section/PageControllerDelegate dataSource" class="dashAnchor"></a>
+                <a href="#/PageControllerDelegate%20dataSource">
+                  <h3 class="section-name">PageControllerDelegate dataSource</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)pageControllerWithPageController:preferredFrameForContentView:"></a>
+                    <a name="//apple_ref/swift/Method/pageController(pageController:preferredFrameForContentView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)pageControllerWithPageController:preferredFrameForContentView:">pageController(pageController:preferredFrameForContentView:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pageController</span><span class="p">(</span><span class="nv">pageController</span><span class="p">:</span> <span class="kt">PageController</span><span class="p">,</span> <span class="n">preferredFrameForContentView</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt"><a href="../Classes/WMScrollView.html">WMScrollView</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)pageControllerWithPageController:preferredFrameForMenuView:"></a>
+                    <a name="//apple_ref/swift/Method/pageController(pageController:preferredFrameForMenuView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)pageControllerWithPageController:preferredFrameForMenuView:">pageController(pageController:preferredFrameForMenuView:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pageController</span><span class="p">(</span><span class="nv">pageController</span><span class="p">:</span> <span class="kt">PageController</span><span class="p">,</span> <span class="n">preferredFrameForMenuView</span> <span class="nv">menuView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MenuView.html">MenuView</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/ScrollViewDelegate"></a>
+                <a name="//apple_ref/swift/Section/ScrollViewDelegate" class="dashAnchor"></a>
+                <a href="#/ScrollViewDelegate">
+                  <h3 class="section-name">ScrollViewDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidScroll:"></a>
+                    <a name="//apple_ref/swift/Method/scrollViewDidScroll(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidScroll:">scrollViewDidScroll(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollViewDidScroll</span><span class="p">(</span><span class="n">_</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewWillBeginDragging:"></a>
+                    <a name="//apple_ref/swift/Method/scrollViewWillBeginDragging(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewWillBeginDragging:">scrollViewWillBeginDragging(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollViewWillBeginDragging</span><span class="p">(</span><span class="n">_</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidEndDecelerating:"></a>
+                    <a name="//apple_ref/swift/Method/scrollViewDidEndDecelerating(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidEndDecelerating:">scrollViewDidEndDecelerating(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollViewDidEndDecelerating</span><span class="p">(</span><span class="n">_</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidEndScrollingAnimation:"></a>
+                    <a name="//apple_ref/swift/Method/scrollViewDidEndScrollingAnimation(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidEndScrollingAnimation:">scrollViewDidEndScrollingAnimation(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollViewDidEndScrollingAnimation</span><span class="p">(</span><span class="n">_</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidEndDragging:willDecelerate:"></a>
+                    <a name="//apple_ref/swift/Method/scrollViewDidEndDragging(_:willDecelerate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewDidEndDragging:willDecelerate:">scrollViewDidEndDragging(_:willDecelerate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollViewDidEndDragging</span><span class="p">(</span><span class="n">_</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">,</span> <span class="n">willDecelerate</span> <span class="nv">decelerate</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewWillEndDragging:withVelocity:targetContentOffset:"></a>
+                    <a name="//apple_ref/swift/Method/scrollViewWillEndDragging(_:withVelocity:targetContentOffset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@PageControllerExample@objc(cs)PageController(im)scrollViewWillEndDragging:withVelocity:targetContentOffset:">scrollViewWillEndDragging(_:withVelocity:targetContentOffset:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollViewWillEndDragging</span><span class="p">(</span><span class="n">_</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">,</span> <span class="n">withVelocity</span> <span class="nv">velocity</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">targetContentOffset</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">CGPoint</span><span class="o">&gt;</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:21PageControllerExample0aB0C26layoutChildViewControllersyyF"></a>
+                    <a name="//apple_ref/swift/Method/layoutChildViewControllers()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:21PageControllerExample0aB0C26layoutChildViewControllersyyF">layoutChildViewControllers()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">layoutChildViewControllers</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-02-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

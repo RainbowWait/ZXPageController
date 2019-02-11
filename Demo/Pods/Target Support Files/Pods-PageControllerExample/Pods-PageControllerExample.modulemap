@@ -1,0 +1,6 @@
+framework module Pods_PageControllerExample {
+  umbrella header "Pods-PageControllerExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

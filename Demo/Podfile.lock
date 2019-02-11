@@ -1,0 +1,16 @@
+PODS:
+  - ZXPageController (1.0.0)
+
+DEPENDENCIES:
+  - ZXPageController (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZXPageController
+
+SPEC CHECKSUMS:
+  ZXPageController: c87183b3e318a5797d2b32da43039588c9077a7f
+
+PODFILE CHECKSUM: b09a406ae177c9a2471e8db21f733356d98bd2bd
+
+COCOAPODS: 1.5.3

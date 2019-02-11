@@ -1,0 +1,334 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 18,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 45,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 50,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 54,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 58,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 66,
+      "symbol": "AppDelegate.persistentContainer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/AppDelegate.swift",
+      "line": 95,
+      "symbol": "AppDelegate.saveContext()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 11,
+      "symbol": "CustomViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 12,
+      "symbol": "CustomViewController.menuViewPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 13,
+      "symbol": "CustomViewController.index",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 22,
+      "symbol": "CustomViewController.redView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 28,
+      "symbol": "CustomViewController.btnMethod()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 34,
+      "symbol": "CustomViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 42,
+      "symbol": "CustomViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 49,
+      "symbol": "CustomViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 54,
+      "symbol": "CustomViewController.numbersOfChildControllersInPageController(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 65,
+      "symbol": "CustomViewController.pageController(_:titleAtIndex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 73,
+      "symbol": "CustomViewController.pageController(_:viewControllerAtIndex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 86,
+      "symbol": "CustomViewController.menuView(_:widthForItemAtIndex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 91,
+      "symbol": "CustomViewController.pageController(pageController:preferredFrameForMenuView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 103,
+      "symbol": "CustomViewController.pageController(pageController:preferredFrameForContentView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 114,
+      "symbol": "CustomViewController.pageController(_:didEnterViewController:withInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 118,
+      "symbol": "CustomViewController.pageController(_:lazyLoadViewController:withInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/CustomViewController.swift",
+      "line": 122,
+      "symbol": "CustomViewController.pageController(_:willEnterViewController:withInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 11,
+      "symbol": "ExampleController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 12,
+      "symbol": "ExampleController.dataArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 15,
+      "symbol": "ExampleController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 28,
+      "symbol": "ExampleController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 35,
+      "symbol": "ExampleController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 40,
+      "symbol": "ExampleController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 45,
+      "symbol": "ExampleController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ExampleController.swift",
+      "line": 52,
+      "symbol": "ExampleController.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/FirstViewController.swift",
+      "line": 11,
+      "symbol": "FirstViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/FirstViewController.swift",
+      "line": 13,
+      "symbol": "FirstViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/FirstViewController.swift",
+      "line": 20,
+      "symbol": "FirstViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/SecondController.swift",
+      "line": 11,
+      "symbol": "SecondController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/SecondController.swift",
+      "line": 13,
+      "symbol": "SecondController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/SecondController.swift",
+      "line": 24,
+      "symbol": "SecondController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/SecondController.swift",
+      "line": 31,
+      "symbol": "SecondController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/SecondController.swift",
+      "line": 36,
+      "symbol": "SecondController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ViewController.swift",
+      "line": 10,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ViewController.swift",
+      "line": 12,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ViewController.swift",
+      "line": 17,
+      "symbol": "ViewController.touchesBegan(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yuequ/Desktop/ZXPageController/Demo/PageControllerExample/ViewController.swift",
+      "line": 21,
+      "symbol": "ViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/yuequ/Desktop/ZXPageController/Demo"
+}

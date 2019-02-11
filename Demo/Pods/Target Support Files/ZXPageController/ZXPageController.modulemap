@@ -1,0 +1,6 @@
+framework module ZXPageController {
+  umbrella header "ZXPageController-umbrella.h"
+
+  export *
+  module * { export * }
+}
